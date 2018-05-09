@@ -1,0 +1,12 @@
+[Unit]
+Description=Turn Gemini PDA led violett for 5 seconds, then disable it
+Conflicts=shutdown.target actdead.target
+After=droid-hal-init.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/droid/bootup-led.sh
+
+[Install]
+WantedBy=multi-user.target
