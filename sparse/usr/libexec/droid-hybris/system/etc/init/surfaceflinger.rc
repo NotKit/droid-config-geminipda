@@ -5,3 +5,4 @@ service surfaceflinger /usr/libexec/droid-hybris/system/bin/surfaceflinger
     setenv LD_PRELOAD /usr/libexec/droid-hybris/system/lib64/libsurfaceflinger.so
     # onrestart restart zygote
     writepid /dev/stune/foreground/tasks
+    disabled
