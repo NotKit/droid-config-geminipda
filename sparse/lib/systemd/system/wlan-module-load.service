@@ -2,6 +2,7 @@
 Description=Load wlan module
 Conflicts=shutdown.target actdead.target
 After=droid-hal-init.service
+Before=connman.service
 
 [Service]
 Type=oneshot

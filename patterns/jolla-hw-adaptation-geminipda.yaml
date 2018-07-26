@@ -81,5 +81,8 @@ Requires:
 #- qt5-qtmultimedia-plugin-mediaservice-irisradio
 #- jolla-mediaplayer-radio
 
+# For suspend to work with enabled Wi-Fi on MediaTek devices
+- sailfish-connman-plugin-suspend-wmtwifi
+
 Summary: Jolla HW Adaptation geminipda
 
