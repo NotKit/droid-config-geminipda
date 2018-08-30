@@ -84,5 +84,8 @@ Requires:
 # For suspend to work with enabled Wi-Fi on MediaTek devices
 - sailfish-connman-plugin-suspend-wmtwifi
 
+# Mount SD-Card and OTG USB drives
+- sd-utils
+
 Summary: Jolla HW Adaptation geminipda
 
